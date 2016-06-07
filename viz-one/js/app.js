@@ -5,6 +5,7 @@ $(document).ready(function () {
             cleardataPH();
             $(".columns .left .detail h2").text('Bristol-Myers Squibb');
             $(".columns .left .detail span").text('$105 billion');
+            $(".columns .left .detail em").text('$24 billion');
             
             $('.left .coins svg .coin_0').delay().velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
             $('.left .coins svg .coin_0_1').delay(1).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
@@ -117,6 +118,7 @@ $(document).ready(function () {
             cleardataPH();
             $(".columns .left .detail h2").text('Pfizer');
             $(".columns .left .detail span").text('$191.3 billion');
+            $(".columns .left .detail em").text('$74 billion');
             
             $('.left .coins svg .coin_0').delay().velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.left .coins svg .coin_0_1').delay(1).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
@@ -315,6 +317,8 @@ $(document).ready(function () {
             cleardataPH();
             $(".columns .left .detail h2").text('Eli Lilly');
             $(".columns .left .detail span").text('$85.1 billion');
+            $(".columns .left .detail em").text('$23.74 billion');
+            
             $('.left .coins svg .coin_0').delay().velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.left .coins svg .coin_0_1').delay(1).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.left .coins svg .coin_0_2').delay(2).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
@@ -406,6 +410,7 @@ $(document).ready(function () {
             cleardataPH();
             $(".columns .left .detail h2").text('Merck');
             $(".columns .left .detail span").text('$144.5 billion');
+            $(".columns .left .detail em").text('$60 billion');
             
             $('.left .coins svg .coin_0').delay().velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.left .coins svg .coin_0_1').delay(1).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
@@ -557,6 +562,7 @@ $(document).ready(function () {
             cleardataPH();
             $(".columns .left .detail h2").text('Abbott');
             $(".columns .left .detail span").text('$61.4 billion');
+            $(".columns .left .detail em").text('$23 billion');
             
             $('.left .coins svg .coin_0').delay().velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.left .coins svg .coin_0_1').delay(1).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
@@ -625,6 +631,8 @@ $(document).ready(function () {
             cleardataPH();
             $(".columns .left .detail h2").text('Abbvie');
             $(".columns .left .detail span").text('$83.6 billion');
+            $(".columns .left .detail em").text('$23 billion ');
+            
             $('.left .coins svg .coin_0').delay().velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.left .coins svg .coin_0_1').delay(1).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.left .coins svg .coin_0_2').delay(2).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
@@ -714,6 +722,8 @@ $(document).ready(function () {
             cleardataPH();
             $(".columns .left .detail h2").text('Amgen');
             $(".columns .left .detail span").text('$109.7 billion');
+            $(".columns .left .detail em").text('$29.3 billion');
+            
             $('.left .coins svg .coin_0').delay().velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.left .coins svg .coin_0_1').delay(1).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.left .coins svg .coin_0_2').delay(2).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
@@ -829,6 +839,7 @@ $(document).ready(function () {
             cleardataPH();
             $(".columns .left .detail h2").text('J&J');
             $(".columns .left .detail span").text('$268 billion');
+            $(".columns .left .detail em").text('$53.4 billion');
             
             $('.right .coins svg .coin_0').delay().velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.left .coins svg .coin_0_1').delay(1).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
@@ -1105,6 +1116,8 @@ $(document).ready(function () {
             cleardataPH();
             $(".columns .left .detail h2").text('Gilead');
             $(".columns .left .detail span").text('$122.6 billion');
+            $(".columns .left .detail em").text('$15.5 billion');
+            
             $('.left .coins svg .coin_0').delay().velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.left .coins svg .coin_0_1').delay(1).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.left .coins svg .coin_0_2').delay(2).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
@@ -1233,6 +1246,8 @@ $(document).ready(function () {
             cleardataPH();
             $(".columns .left .detail h2").text('Baxter');
             $(".columns .left .detail span").text('$19.7 billion');
+            $(".columns .left .detail em").text('$13.9 billion');
+            
             $('.left .coins svg .coin_0').delay().velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.left .coins svg .coin_0_1').delay(1).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.left .coins svg .coin_0_2').delay(2).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
@@ -1260,6 +1275,8 @@ $(document).ready(function () {
             cleardataNPH();
             $(".columns .right .detail h2").text('Microsoft');
             $(".columns .right .detail span").text('$412.8 billion');
+            $(".columns .right .detail em").text('$92.9 billion');
+            
             $('.right .coins svg .coin_0').delay().velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.right .coins svg .coin_0_1').delay(1).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.right .coins svg .coin_0_2').delay(2).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
@@ -1678,6 +1695,8 @@ $(document).ready(function () {
             cleardataNPH();
             $(".columns .right .detail h2").text('McDonalds');
             $(".columns .right .detail span").text('$110.8 billion');
+            $(".columns .right .detail em").text('$15.4 billion');
+            
             $('.right .coins svg .coin_0').delay().velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.right .coins svg .coin_0_1').delay(1).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.right .coins svg .coin_0_2').delay(2).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
@@ -1795,6 +1814,8 @@ $(document).ready(function () {
             cleardataNPH();
             $(".columns .right .detail h2").text('Starbucks');
             $(".columns .right .detail span").text('$86.1 billion');
+            $(".columns .right .detail em").text('$2.8 billion');
+            
             $('.right .coins svg .coin_0').delay().velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.right .coins svg .coin_0_1').delay(1).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.right .coins svg .coin_0_2').delay(2).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
@@ -1887,6 +1908,8 @@ $(document).ready(function () {
             cleardataNPH();
             $(".columns .right .detail h2").text('Disney');
             $(".columns .right .detail span").text('$156.7 billion');
+            $(".columns .right .detail em").text('$1.9 billion');
+            
             $('.right .coins svg .coin_0').delay().velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.right .coins svg .coin_0_1').delay(1).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.right .coins svg .coin_0_2').delay(2).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
@@ -2050,6 +2073,8 @@ $(document).ready(function () {
             cleardataNPH();
             $(".columns .right .detail h2").text('Coca-Cola');
             $(".columns .right .detail span").text('$189 billion');
+            $(".columns .right .detail em").text('$33 billion');
+            
             $('.right .coins svg .coin_0').delay().velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.right .coins svg .coin_0_1').delay(1).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.right .coins svg .coin_0_2').delay(2).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
@@ -2242,7 +2267,10 @@ $(document).ready(function () {
         else if (this.value == 'nph6') {  
             cleardataNPH();
             $(".columns .right .detail h2").text('Nike');
-            $(".columns .right .detail span").text('$98.95 billion');$('.right .coins svg .coin_0').delay().velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
+            $(".columns .right .detail span").text('$98.95 billion');
+            $(".columns .right .detail em").text('$8.3 billion');
+            
+            $('.right .coins svg .coin_0').delay().velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.right .coins svg .coin_0_1').delay(1).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.right .coins svg .coin_0_2').delay(2).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.right .coins svg .coin_0_3').delay(3).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
@@ -2346,6 +2374,8 @@ $(document).ready(function () {
             cleardataNPH();
             $(".columns .right .detail h2").text('Mattel');
             $(".columns .right .detail span").text('$10.5 billion');
+            $(".columns .right .detail em").text('$6.4 billion');
+            
             $('.right .coins svg .coin_0').delay().velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
             $('.right .coins svg .coin_0_1').delay(1).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
             $('.right .coins svg .coin_0_2').delay(2).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
@@ -2362,6 +2392,8 @@ $(document).ready(function () {
             cleardataNPH();
             $(".columns .right .detail h2").text('Western Union');
             $(".columns .right .detail span").text('$9 billion');
+            $(".columns .right .detail em").text('$5.6 billion');
+            
             $('.right .coins svg .coin_0').delay().velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
             $('.right .coins svg .coin_0_1').delay(1).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
             $('.right .coins svg .coin_0_2').delay(2).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
@@ -2378,6 +2410,8 @@ $(document).ready(function () {
             cleardataNPH();
             $(".columns .right .detail h2").text('ExxonMobil');
             $(".columns .right .detail span").text('$341 billion');
+            $(".columns .right .detail em").text('$51 billion');
+            
             $('.right .coins svg .coin_0').delay().velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.right .coins svg .coin_0_1').delay(1).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");
     $('.right .coins svg .coin_0_2').delay(2).velocity({opacity: "1", scale:"1"}, { duration: 500 },"easeInOutSine");

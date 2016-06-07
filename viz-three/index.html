@@ -14,31 +14,59 @@
 
 <body>
     <div class="columns">
-        <label>
-            <select class="form-control" id="medicines">
-                <option selected>Select Medicine</option>
-                <option value="M01">Amitriptyline</option>
-                <option value="M02">Amoxicillin</option>
-                <option value="M03">Atenolol</option>
-                <option value="M04">Captopril</option>
-                <option value="M05">Ceftriaxone</option>
-                <option value="M06">Ciprofloxacin</option>
-                <option value="M07">Co-trimoxazole</option>
-                <option value="M08">Diazepam</option>
-                <option value="M09">Diclofenac</option>
-                <option value="M10">Glibenclamide</option>
-                <option value="M11">Omeprazole</option>
-                <option value="M12">Paracetamol</option>
-                <option value="M13">Salbutamol</option>
-                <option value="M14">Simvastatin</option>
-            </select>
-        </label>
+        <div id="selectors">
+            <label>
+                <select class="form-control" id="medicines_priv">
+                    <option value="0" selected>Select Medicine (private)</option>
+                    <option value="M01">Amitriptyline</option>
+                    <option value="M02">Amoxicillin</option>
+                    <option value="M03">Atenolol</option>
+                    <option value="M04">Captopril</option>
+                    <option value="M05">Ceftriaxone</option>
+                    <option value="M06">Ciprofloxacin</option>
+                    <option value="M07">Co-trimoxazole</option>
+                    <option value="M08">Diazepam</option>
+                    <option value="M09">Diclofenac</option>
+                    <option value="M10">Glibenclamide</option>
+                    <option value="M11">Omeprazole</option>
+                    <option value="M12">Paracetamol</option>
+                    <option value="M13">Salbutamol</option>
+                    <option value="M14">Simvastatin</option>
+                </select>
+            </label>
+            <label>
+                <select class="form-control" id="medicines_publ">
+                    <option value="0" selected>Select Medicine (public)</option>
+                    <option value="M01">Amitriptyline</option>
+                    <option value="M02">Amoxicillin</option>
+                    <option value="M03">Atenolol</option>
+                    <option value="M04">Captopril</option>
+                    <option value="M05">Ceftriaxone</option>
+                    <option value="M06">Ciprofloxacin</option>
+                    <option value="M07">Co-trimoxazole</option>
+                    <option value="M08">Diazepam</option>
+                    <option value="M09">Diclofenac</option>
+                    <option value="M10">Glibenclamide</option>
+                    <option value="M11">Omeprazole</option>
+                    <option value="M12">Paracetamol</option>
+                    <option value="M13">Salbutamol</option>
+                    <option value="M14">Simvastatin</option>
+                </select>
+            </label>
+            <div class="onoffswitch">
+                <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch">
+                <label class="onoffswitch-label" for="myonoffswitch"  id="switch">
+                    <span class="onoffswitch-inner"></span>
+                    <span class="onoffswitch-switch"></span>
+                </label>
+            </div>    
+        </div>
         <div class="left">
             <div id="colorKey"></div>
-            <div class="detail">
+            <div class="detail" id="detail_ck">
                 <h2>Africa</h2>
                 <p>
-                    In order to purchase one of these 14 medicines, you would need to work between one and 30 days.
+                    In order to purchase one of these 14 medicines <b>under the private sanitary system,</b> you would need to work between one and 30 days.
                 </p>
             </div>
             <div id="canvas">
@@ -179,7 +207,7 @@
     <script src="js/velocity.min.js"></script>
     <script type="text/javascript" src="/js/pym.js"></script>
     <script type="text/javascript">
-      var pymChild = new pym.Child();
+        var pymChild = new pym.Child();
     </script>
 </body>
 

@@ -111,8 +111,8 @@ footer span {
 }
 #colorKey{
     background-image: url(../img/colorKey.png);
-    width: 160px;
-    height: 49px;
+    width: 216px;
+    height: 30px;
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -120,6 +120,7 @@ footer span {
     top: 40px;
     
 }
+#medicines_publ{display: none;}
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 47.5em) {
@@ -139,4 +140,65 @@ footer span {
         text-align: left;
         padding: 3.5em 2em;
     }
+}
+@media screen and (max-width:480px)
+{
+    h2 {font-size: 36px;text-align: left;}
+    p {text-align: left;}
+    #colorKey {right: 10px;top: 30px;}
+}
+
+/*   SWITCH    */
+#selectors{width: 475px;}
+.onoffswitch {
+    float: right;
+    position: relative;
+    width: 140px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    margin: 6px 0px 0px 0px;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 1px solid #000000; border-radius: 0px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    color: white;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "Public sector";
+    padding-left: 39px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "Private sector";
+    padding-left: 39px;
+    background-color: #FFFFFF;
+    color: #000000;
+    text-align: left;
+}
+.onoffswitch-switch {
+    display: block; width: 11px; margin: 9.5px;
+    background: #30B3BA;
+    position: absolute; top: 0; bottom: 0;
+    left: 5px;
+    border: 2px solid #000000; border-radius: 0px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
 }

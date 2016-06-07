@@ -69,6 +69,7 @@ Each company used similar language to describe its avoidance: “At December 31,
 
  The way it works is that a company can acquire or merge with a smaller foreign company and change their corporate billing address to eliminate U.S. federal and state taxes. In 2014, Pfizer unsuccessfully tried to merge with the U.K.’s AstraZeneca using inversion, a practice U.S. President Barack Obama called legal but “wrong.”
 
+
 <h2>PHARMA’S FUZZY MATH</h2>
 <hr class="branded"/>
 <a class="anchor" name="vizone"></a>
